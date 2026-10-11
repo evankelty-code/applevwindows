@@ -3,54 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <title>Apple vs Windows</title>
+
+  <!-- Bootstrap CDN -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="bg-light">
+
   <header class="site-header">
-    <h1>Apple vs Windows</h1>
+    <h1 class="display-5">Apple vs Windows</h1>
   </header>
 
-  <main class="content-wrapper">
-    <section id="apple-section" class="content-section">
-      <p>In this comparison, we will look at the performance and pros and cons of Apple and Windows operating systems along with the different features that each company offers with their laptops.</p>
+<main class="container my-4">
 
-      <h2>Apple</h2>
-      <img src="apple.jpg" alt="Apple Logo" class="logo-img">
+  <!-- NEW: Intro Box -->
+  <section class="content-section shadow-sm p-4 mb-4 text-center" id="intro-box">
+    <p class="lead">
+      In this comparison, we will look at the performance and pros and cons of Apple and Windows operating systems along with the different features that each company offers with their laptops.
+    </p>
+  </section>
 
-      <h3>Operating System / Build Quality</h3>
-      <ul>
-        <li>Pros: User-friendly interface, strong security, seamless integration with other Apple devices</li>
-        <li>Cons: Higher cost, limited software options, shorter battery life</li>
-      </ul>
+  <!-- Apple Section -->
+  <section id="apple-section" class="content-section shadow-sm p-4 mb-4">
+    <h2 class="text-primary">Apple</h2>
+    <img src="apple.jpg" alt="Apple Logo" class="logo-img img-fluid rounded">
 
-      <h3>Laptop Features</h3>
-      <ol>
-        <li>Pros: High-quality build, long battery life, excellent display quality</li>
-        <li>Cons: Limited hardware customization, higher price point, fewer ports and connectivity options</li>
-      </ol>
-    </section>
+    <h3>Operating System / Build Quality</h3>
+    <ul class="list-group mb-3">
+      <li class="list-group-item">Pros: User-friendly interface, strong security, seamless integration with other Apple devices</li>
+      <li class="list-group-item">Cons: Higher cost, limited software options, shorter battery life</li>
+    </ul>
 
-    <section id="windows-section" class="content-section">
-      <h2>Windows</h2>
-      <img src="windows.jpg" alt="Windows Logo" class="logo-img">
+    <h3>Laptop Features</h3>
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item">Pros: High-quality build, long battery life, excellent display quality</li>
+      <li class="list-group-item">Cons: Limited hardware customization, higher price point, fewer ports and connectivity options</li>
+    </ol>
+  </section>
 
-      <h3>Operating System / Build Quality</h3>
-      <ul>
-        <li>Pros: Greater software compatibility, more affordable options, wider range of hardware choices</li>
-        <li>Cons: More susceptible to malware, less intuitive user interface, potential for system bloat</li>
-      </ul>
+  <!-- Windows Section -->
+  <section id="windows-section" class="content-section shadow-sm p-4 mb-4">
+    <h2 class="text-primary">Windows</h2>
+    <img src="windows.jpg" alt="Windows Logo" class="logo-img img-fluid rounded">
 
-      <h3>Laptop Features</h3>
-      <ol>
-        <li>Pros: Customizable hardware, extensive software library, better gaming performance</li>
-        <li>Cons: Inconsistent build quality, potential for driver issues, more frequent updates</li>
-      </ol>
-    </section>
-  </main>
+    <h3>Operating System / Build Quality</h3>
+    <ul class="list-group mb-3">
+      <li class="list-group-item">Pros: Greater software compatibility, more affordable options, wider range of hardware choices</li>
+      <li class="list-group-item">Cons: More susceptible to malware, less intuitive user interface, potential for system bloat</li>
+    </ul>
+
+    <h3>Laptop Features</h3>
+    <ol class="list-group list-group-numbered">
+      <li class="list-group-item">Pros: Customizable hardware, extensive software library, better gaming performance</li>
+      <li class="list-group-item">Cons: Inconsistent build quality, potential for driver issues, more frequent updates</li>
+    </ol>
+  </section>
+
+</main>
 
   <footer class="site-footer">
-    <a href="page2.html">Read more on Page 2</a>
+    <a class="btn btn-primary" href="page2.html">Read more on Page 2</a>
   </footer>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

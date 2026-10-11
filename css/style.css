@@ -1,9 +1,16 @@
+/* ===== Import Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* ===== Basic Page Styling ===== */
 body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
+}
+
+#intro-box {
+  border: 4px solid #444; /* darker neutral border */
 }
 
 /* ===== Header & Footer ===== */
@@ -20,48 +27,36 @@ body {
 }
 
 /* ===== Content Sections ===== */
-.content-wrapper {
-  width: 90%;
-  margin: auto;
-}
-
 .content-section {
   background: white;
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
+
+  /* NEW: full border around the whole box */
+  border: 4px solid #ccc;
+}
+
+/* ===== Unique ID Border Colors ===== */
+#apple-section {
+  border-color: #888; /* full border now */
+}
+
+#windows-section {
+  border-color: #1a73e8; /* full border now */
 }
 
 /* ===== Images ===== */
 .logo-img {
-  width: 50%;
+  width: 60%;
   display: block;
-  margin: 10px auto;
-}
-
-/* ===== Unique IDs ===== */
-#apple-section {
-  border-left: 6px solid #888;
-}
-
-#windows-section {
-  border-left: 6px solid #1a73e8;
-}
-
-/* ===== Flexbox Layout (Page 2) ===== */
-.flex-container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-}
-
-.flex-container .content-section {
-  flex: 1;
+  margin: 15px auto;
 }
 
 /* ===== Typography ===== */
 h1, h2, h3 {
   text-align: center;
+  font-weight: 600;
 }
 
 p {
