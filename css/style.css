@@ -63,8 +63,7 @@ p {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-<<<<<<< HEAD
-=======
+
 /* ===== Responsive Design ===== */
 @media (max-width: 768px) {
 .flex-container {
@@ -89,4 +88,3 @@ h3{
 font-size: 1.2rem;
 }
 }
->>>>>>> 96281371061fe548b848d6641086224a69ca1a2b
